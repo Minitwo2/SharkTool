@@ -1,0 +1,18 @@
+F:\SharkTool\SharkTool Alpha 1.0\SharkTool Alpha 1.0\bin\Debug\SharkTool Alpha 1.0.exe.config
+F:\SharkTool\SharkTool Alpha 1.0\SharkTool Alpha 1.0\bin\Debug\SharkTool Alpha 1.0.exe
+F:\SharkTool\SharkTool Alpha 1.0\SharkTool Alpha 1.0\bin\Debug\SharkTool Alpha 1.0.pdb
+F:\SharkTool\SharkTool Alpha 1.0\SharkTool Alpha 1.0\obj\Debug\SharkTool Alpha 1.0.csprojResolveAssemblyReference.cache
+F:\SharkTool\SharkTool Alpha 1.0\SharkTool Alpha 1.0\obj\Debug\MainWindow.g.cs
+F:\SharkTool\SharkTool Alpha 1.0\SharkTool Alpha 1.0\obj\Debug\App.g.cs
+F:\SharkTool\SharkTool Alpha 1.0\SharkTool Alpha 1.0\obj\Debug\SharkTool Alpha 1.0_MarkupCompile.cache
+F:\SharkTool\SharkTool Alpha 1.0\SharkTool Alpha 1.0\obj\Debug\SharkTool Alpha 1.0_MarkupCompile.lref
+F:\SharkTool\SharkTool Alpha 1.0\SharkTool Alpha 1.0\obj\Debug\MainWindow.baml
+F:\SharkTool\SharkTool Alpha 1.0\SharkTool Alpha 1.0\obj\Debug\SharkTool Alpha 1.0.g.resources
+F:\SharkTool\SharkTool Alpha 1.0\SharkTool Alpha 1.0\obj\Debug\SharkTool_Alpha_1._0.Properties.Resources.resources
+F:\SharkTool\SharkTool Alpha 1.0\SharkTool Alpha 1.0\obj\Debug\SharkTool Alpha 1.0.csproj.GenerateResource.Cache
+F:\SharkTool\SharkTool Alpha 1.0\SharkTool Alpha 1.0\obj\Debug\SharkTool Alpha 1.0.exe
+F:\SharkTool\SharkTool Alpha 1.0\SharkTool Alpha 1.0\obj\Debug\SharkTool Alpha 1.0.pdb
+F:\SharkTool\SharkTool Alpha 1.0\SharkTool Alpha 1.0\obj\Debug\Step1.g.cs
+F:\SharkTool\SharkTool Alpha 1.0\SharkTool Alpha 1.0\obj\Debug\contents.g.cs
+F:\SharkTool\SharkTool Alpha 1.0\SharkTool Alpha 1.0\obj\Debug\contents.baml
+F:\SharkTool\SharkTool Alpha 1.0\SharkTool Alpha 1.0\obj\Debug\Step1.baml

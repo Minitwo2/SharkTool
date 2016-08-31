@@ -1,0 +1,40 @@
+﻿<Window x:Class="SharkTool_Alpha_1._0.contents"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SharkTool_Alpha_1._0"
+        mc:Ignorable="d"
+        Title="contents" Height="207.945" Width="510.411" BorderThickness="20" AllowsTransparency="True" WindowStyle="None">
+    <Window.Effect>
+        <DropShadowEffect BlurRadius="15" Opacity="0.3" ShadowDepth="1"/>
+    </Window.Effect>
+    <Grid>
+        <Rectangle Fill="Green" VerticalAlignment="Top" Height="30" MouseDown="title" Grid.ColumnSpan="2"/>
+        <TextBlock Text="Shark Tool -目录" Foreground="White" Margin="31,8,299,138" MouseDown="title"/>
+        <Button Background="#FF3BA200" Click="close" Content="×" Foreground="White" BorderBrush="White" Margin="440,0,0,138"/>
+        <Button Background="#FF399C00" Click="mini" Content="_" Foreground="White" BorderBrush="White" Margin="410,0,30,138"/>
+        <Button x:Name="button" Content="" HorizontalAlignment="Left" Height="30" VerticalAlignment="Top" Width="30" BorderBrush="{x:Null}" Foreground="White" Click="main">
+            <Button.Background>
+                <ImageBrush ImageSource="skins/logo.ico"/>
+            </Button.Background>
+        </Button>
+        <ComboBox x:Name="comboBox" HorizontalAlignment="Left" Height="20" Margin="31,86,0,0" VerticalAlignment="Top" Width="410" BorderBrush="#FF198102" Foreground="Black">
+            <ComboBox.Background>
+                <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                    <GradientStop Color="#FFF0F0F0" Offset="0"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </ComboBox.Background>
+            <ComboBoxItem Content="第一步-这是，我的世界？" HorizontalAlignment="Left" Width="408" Selected="ComboBoxItem_Selected" Margin="2,0,-2,0"/>
+            <ComboBoxItem Content="第二步-要致富，先撸树！" HorizontalAlignment="Left" Width="408"/>
+        </ComboBox>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="30,35,0,0" TextWrapping="Wrap" Text="开始咯！" VerticalAlignment="Top" FontSize="24" Foreground="#FF338D00"/>
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Height="21" Margin="31,65,0,0" TextWrapping="Wrap" Text="选择一个课题，然后点击按钮 我准备好了 开始你的世界之旅！" VerticalAlignment="Top" Width="409" Foreground="#FF00701F"/>
+        <Button x:Name="button1" Content="我准备好了！&#xA;I am ready!" HorizontalAlignment="Left" Margin="357,111,0,8" Width="103" Background="White" Foreground="#FF216600" BorderBrush="#FF686868" Click="start">
+            <Button.Effect>
+                <DropShadowEffect BlurRadius="30" Opacity="0.3" ShadowDepth="6"/>
+            </Button.Effect>
+        </Button>
+    </Grid>
+</Window>

@@ -1,0 +1,35 @@
+﻿<Window x:Class="SharkTool_Alpha_1._0.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SharkTool_Alpha_1._0"
+        mc:Ignorable="d"
+        Title="Shark Tool" Height="352.877" Width="700" AllowsTransparency="True" WindowStyle="None" BorderThickness="20" Icon="skins/logo.ico" Background="White">
+    <Window.Effect>
+        <DropShadowEffect BlurRadius="15" ShadowDepth="1" Opacity="0.3"/>
+    </Window.Effect>
+    <Grid>
+        <Rectangle Fill="Green" VerticalAlignment="Top" Height="30" MouseDown="title" Grid.ColumnSpan="2"/>
+        <TextBlock Text="Shark Tool" Foreground="White" Margin="31,8,563,288" MouseDown="title"/>
+        <Button Margin="630,0,0,283" Background="#FF3BA200" Click="close" Content="×" Foreground="White" BorderBrush="White"/>
+        <Button Margin="600,0,30,283" Background="#FF399C00" Click="mini" Content="_" Foreground="White" BorderBrush="White"/>
+        <Button x:Name="button" Content="" HorizontalAlignment="Left" Height="30" VerticalAlignment="Top" Width="30" BorderBrush="{x:Null}" Foreground="White" Click="main">
+            <Button.Background>
+                <ImageBrush ImageSource="skins/logo.ico"/>
+            </Button.Background>
+        </Button>
+        <StackPanel Height="283" Margin="0,30,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="267"/>
+        <StackPanel HorizontalAlignment="Left" Height="283" Margin="0,30,0,0" VerticalAlignment="Top" Width="660">
+            <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Height="30" TextWrapping="Wrap" Width="660"/>
+            <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Height="40" Text="欢迎！" Width="105" FontSize="32" FontWeight="Medium" Foreground="#FF159C00" FontStretch="Condensed" LineStackingStrategy="BlockLineHeight" TextOptions.TextHintingMode="Fixed" TextTrimming="CharacterEllipsis" Margin="25,0,0,0"/>
+            <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" Height="100" Margin="25,0,0,0" TextWrapping="Wrap" Width="394" Foreground="#FF149300"><Run Text="系统没长脑子，你学到哪里我也不知道。"/><LineBreak/><Run Text="这是Shark Tool，一个让您从新手走到大神的辅助软件。"/><LineBreak/><Run Text="接下来请您点击"/><Run Text="按钮"/><Run Text="，开始您的Shark之旅吧！"/><LineBreak/><Run Text=""/></TextBlock>
+            <Button x:Name="button1" Content="我准备好了！&#xD;&#xA;I am ready!" HorizontalAlignment="Left" Height="89" Margin="439,0,0,0" Width="183" Background="White" Foreground="#FF216600" BorderBrush="#FF686868" Click="start">
+                <Button.Effect>
+                    <DropShadowEffect BlurRadius="30" Opacity="0.3" ShadowDepth="6"/>
+                </Button.Effect>
+            </Button>
+        </StackPanel>
+
+    </Grid>
+</Window>

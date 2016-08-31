@@ -1,0 +1,3 @@
+F:\SharkTool\SharkTool Alpha 1.0\SharkToolAlpha1.0\bin\Debug\SharkTool Alpha 1.0.exe.config
+F:\SharkTool\SharkTool Alpha 1.0\SharkToolAlpha1.0\obj\Debug\SharkTool Alpha 1.0.exe
+F:\SharkTool\SharkTool Alpha 1.0\SharkToolAlpha1.0\obj\Debug\SharkTool Alpha 1.0.pdb
